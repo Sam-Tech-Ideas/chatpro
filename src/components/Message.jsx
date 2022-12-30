@@ -13,7 +13,7 @@ const Message = ({message}) => {
     <div>
         <div className={style.message}>
             <p className={style.name}>Dave</p>
-            <p className={''}>yo dfjbjfd</p>
+            <p className={''}>{message.text}</p>
            
         </div>
     </div>
